@@ -1,13 +1,17 @@
 # Spambase
-Classifying Email as Spam or Non-Spam.
+Classifying Email as Spam or Non-Spam. 
+
+# From:
+Repository for Analysis of data hosted on (UCI Machine Learning Archives)[https://archive.ics.uci.edu/]
 
 # Citation:
 Hopkins, Mark, Reeber,Erik, Forman,George, and Suermondt,Jaap. (1999). Spambase. UCI Machine Learning Repository. https://doi.org/10.24432/C53G6X.
 
 
-## How to download it straight from your notebook:
+### How to download it straight from your notebook:
 !pip install ucimlrepo
 from ucimlrepo import fetch_ucirepo
+spambase = fetch_ucirepo(id=94) 
 
 
 # fetch dataset 
