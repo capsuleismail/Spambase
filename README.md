@@ -2,7 +2,7 @@
 Classifying Email as Spam or Non-Spam. 
 
 # From:
-Repository for Analysis of data hosted on (UCI Machine Learning Archives)[https://archive.ics.uci.edu/]
+Repository for ML and Experimenting of data hosted on [UCI Machine Learning Archives](https://archive.ics.uci.edu/)
 
 # Citation:
 Hopkins, Mark, Reeber,Erik, Forman,George, and Suermondt,Jaap. (1999). Spambase. UCI Machine Learning Repository. https://doi.org/10.24432/C53G6X.
