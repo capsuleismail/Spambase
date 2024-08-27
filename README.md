@@ -12,11 +12,16 @@ Hopkins, Mark, Reeber,Erik, Forman,George, and Suermondt,Jaap. (1999). Spambase.
 ```!pip install ucimlrepo 
 from ucimlrepo import fetch_ucirepo 
 spambase = fetch_ucirepo(id=94) 
- 
-X = spambase.data.features # X as pandas.dataframe
-y = np.ravel(spambase.data.targets) # Y as target 
-  
 
-print(spambase.metadata) # metadata 
+
+# X as pandas.dataframe
+X = spambase.data.features 
+
+# Y as target 
+y = np.ravel(spambase.data.targets)
   
-print(spambase.variables) # variable information ```
+# metadata 
+print(spambase.metadata) 
+
+# variable information 
+print(spambase.variables)```
