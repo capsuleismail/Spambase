@@ -9,7 +9,8 @@ Hopkins, Mark, Reeber,Erik, Forman,George, and Suermondt,Jaap. (1999). Spambase.
 
 
 ### How to download it straight from your notebook:
-!pip install ucimlrepo <br/>
+
+```!pip install ucimlrepo <br/>
 from ucimlrepo import fetch_ucirepo <br/>
 spambase = fetch_ucirepo(id=94) <br/>
  
@@ -19,4 +20,4 @@ y = np.ravel(spambase.data.targets) # Y as target <br/>
 
 print(spambase.metadata) # metadata <br/>
   
-print(spambase.variables) # variable information <br/>
+print(spambase.variables) # variable information <br/>```
