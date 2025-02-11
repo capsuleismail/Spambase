@@ -7,7 +7,7 @@ Repository for ML and Experimenting of data hosted on [UCI Machine Learning Arch
 ### Citation:
 Hopkins, Mark, Reeber,Erik, Forman,George, and Suermondt,Jaap. (1999). Spambase. UCI Machine Learning Repository. https://doi.org/10.24432/C53G6X.
 
-### How to download it straight from your notebook:
+### How to download it straight to your notebook:
 
 ```!pip install ucimlrepo 
 from ucimlrepo import fetch_ucirepo 
